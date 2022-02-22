@@ -34,6 +34,39 @@ alert(`${ARRAY_NUMERI_RDM.join('  ')}`)
 
 
 
+setTimeout(userAnswer, 3000);
+
+
+function userAnswer(userNum){
+    let i = 1
+    do{
+       
+       const userNum = parseInt(prompt(`'inserisci uno ad uno i numeri che hai visto!numero ${[i]}'`))
+       if (!isNaN(userNum)){
+        i++ 
+     
+        } 
+       else {
+        parseInt(prompt(`'inserisci uno ad uno i numeri che hai visto!numero ${[i]}'`));
+
+       }
+
+       console.log(userNum);
+    }
+
+    while(i < 6 )
+
+
+
+
+    
+}
+
+
+
+
+
+
 
 
 
