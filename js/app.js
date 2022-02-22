@@ -77,12 +77,12 @@ function userAnswer(userNum){
             DASHBOARD.append(`Ti sei ricordato ${ARRAY_NUMERI_TRUE.length} numeri su ${ARRAY_NUMERI_RDM.length}!
             ${ARRAY_NUMERI_TRUE}`)
 
-    else if (ARRAY_NUMERI_TRUE.length = ARRAY_NUMERI_RDM.length){
+    else if (ARRAY_NUMERI_TRUE.length === ARRAY_NUMERI_RDM.length){
         DASHBOARD.append(`Ti sei ricordato tutti i numeri!
             ${ARRAY_NUMERI_TRUE}`)
     }
 
-    else if (ARRAY_NUMERI_TRUE.length = 1){
+    else if (ARRAY_NUMERI_TRUE.length === 1){
         DASHBOARD.append(`Ti sei ricordato un solo numero!!
             ${ARRAY_NUMERI_TRUE}`)
     }
