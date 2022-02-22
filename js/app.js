@@ -19,8 +19,8 @@ console.log('ciao')
 // basta che siano presenti nell’elenco di numeri iniziale.
 
 
-
-
+const DASHBOARD = document.querySelector('.message')
+console.log(DASHBOARD);
 const ARRAY_NUMERI_RDM = [];
 
 for (let i = 0; i < 5; i++) {
@@ -29,6 +29,10 @@ ARRAY_NUMERI_RDM.push( num );
 console.log(num)
 }
 console.log(ARRAY_NUMERI_RDM)
+
+alert(`${ARRAY_NUMERI_RDM.join('  ')}`)
+
+
 
 
 
